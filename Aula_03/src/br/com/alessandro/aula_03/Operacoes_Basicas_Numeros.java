@@ -3,7 +3,7 @@
  * Autor: Alessandro Soares
  * 
  */
-package br.com.alessandro.aula_02;
+package br.com.alessandro.aula_03;
 
 import javax.swing.JOptionPane;
 
@@ -25,7 +25,7 @@ public class Operacoes_Basicas_Numeros {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	    /**
-	     * Aula 2.
+	     * Aula 3.
 		 * Vamos criar mais um exemplo simples para ilustrar como operações básicas podem ser
 		 * realizadas em Java.
 		 * O problema a ser resolvido é criar um programa que exiba o valor das quatro operações 

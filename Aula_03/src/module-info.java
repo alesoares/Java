@@ -7,4 +7,5 @@
  * 
  */
 module Aula_03 {
+	requires java.desktop;
 }
