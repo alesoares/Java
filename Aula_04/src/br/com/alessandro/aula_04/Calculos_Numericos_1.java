@@ -33,13 +33,19 @@ public class Calculos_Numericos_1 {
 		valorPrestacao = Double.parseDouble(JOptionPane.showInputDialog("Informe o valor da prestação : "));
 		multa          = Double.parseDouble(JOptionPane.showInputDialog("Informe o valor da multa : "    ));
 		qtdeDias       = Integer.parseInt  (JOptionPane.showInputDialog("Quantos dias está em atraso : " ));
+		
 		prestacaoAtual = valorPrestacao + ( valorPrestacao * ( multa * 0.01 ) * qtdeDias);
+		
+		/* #######################		RESULTADO FEITO NO MODO GRÁFICO		############################## */
 		JOptionPane.showMessageDialog(null, "Prestação corregida em R$ \t " + tofixed.format( prestacaoAtual ));//Valor formatado em tela
 		
 		/* Pprograma em Java que efetue aapresentação do valor da conversão em real(R$) de um valor lido em dólar(US$). */
 		cotacao = Double.parseDouble(JOptionPane.showInputDialog("Informe o valor da cotação do dolar : "));
 		dolar   = Double.parseDouble(JOptionPane.showInputDialog("Quantos dolares você quer converter ? "));
+		
 		conversao = dolar * cotacao;		
+		
+		/* #######################		RESULTADO FEITO NO MODO GRÁFICO		############################## */
 		JOptionPane.showMessageDialog(null, "Total em R$ \t " + tofixed.format( conversao ));//Valor formatado em tela
 	}
 }

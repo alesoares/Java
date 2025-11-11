@@ -45,12 +45,13 @@ public class Calculos_Numericos_2 {
         
         ve = ( 3.0 / 4.0 ) * Math.PI * Math.pow( raio, 3 ); /* volume esfera */
         
+        /* ##########################	RESULTADO FEITO NO MODO TEXTO	################################## */
         System.out.println( "Comprimento da esfera é: " + c  + "\n" +
                 		    "Volume da esfera é: "      + ve + "\n" +
 		      	            "Área do cilindro é de : "  + a  + "\n" +
 		      	            "Volume do cilindro é: "    + vc 
 			               );
-        
+        /* #######################		RESULTADO FEITO NO MODO GRÁFICO		############################## */
         JOptionPane.showMessageDialog(null,
 						        		"Comprimento da esfera é: " + c  + "\n" +
 						                "Volume da esfera é: "      + ve + "\n" +
