@@ -20,3 +20,5 @@ Após a aprovação final, a Oracle assumiu oficialmente a propriedade da Sun e,
 
 ### **`"Encare como um curso e divirta-se aprendendo."`**
 
+Ao longo desta postagem de códigos em Java quero demonstrar minha trilha de aprendizado e compreensão da linguagem, nesta quatro aulas iniciais demonstrei sáidas de execução do algoritmo em "Modo Texto" com o uso da do objeto da classe "SCANNER" e também em "Modo Gráfico" com o uso do objeto da classe do pacote "SWING" o JOptionPane, também demonstrei alguns tipos de dados em Java que é fortemente tipada; na realidade são conceitos que vou detalhar muito breve mesmo, pois o intuito aqui é mostrar apenas os códigos dos algoritmos de algumas lições que tive e fiz; projetos que entreguei na minha trajetória acadêmica bem como trabalhos de freelancer rumo a carreira profissional que almejo agora.
+
